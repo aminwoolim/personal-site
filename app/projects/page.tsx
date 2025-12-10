@@ -15,6 +15,14 @@ type Project = {
 
 
 const projects: Project[] = [
+  {slug: "aws-housing-mlops",
+   title: "Housing Price Prediction Pipeline",
+   period: "2025",
+   tags: ["Python", "Pandas", "Scikit-learn", "Regression", "AWS"],
+   summary:
+     "Built a housing price prediction pipeline using AWS services and MLops best practices.",
+   githubUrl: "https://github.com/aminwoolim/aws-housing-mlops"
+  },
   {
     slug: "titanic-survival-model",
     title: "Titanic Survival Prediction Model",
@@ -25,13 +33,13 @@ const projects: Project[] = [
     githubUrl: "https://github.com/aminwoolim/titanic-survival-prediction"
   },
   {
-    slug: "serverless-data-quality-aws",
-    title: "Serverless Data Quality Impact Analysis (AWS)",
+    slug: "Stock-HistoLib",
+    title: "Stock History Library",
     period: "2025",
-    tags: ["AWS", "Glue", "PySpark", "Deequ"],
+    tags: ["AWS", "DynamoDB", "API Gateway"],
     summary:
-      "Designed a multi-layer data lake with automated ETL and Deequ-based data quality checks.",
-    githubUrl: "https://github.com/aminwoolim/serverless-data-quality-aws"
+      "Designed a site that allows users to better understand and visualize stock market data.",
+    githubUrl: "https://github.com/aminwoolim/Stock-HistoLib"
   },
   {
     slug: "mirai-visual-novel-engine",
