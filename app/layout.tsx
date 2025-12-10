@@ -21,12 +21,12 @@ export default function RootLayout({
           <header className="mb-10 flex items-center justify-between">
             
             <nav className="flex gap-6 text-xs text-slate-700">
-              <Link href="/">Home</Link>
-              <Link href="/about">About</Link>
+              <a href="/#hero" className="hover:text-slate-900 transition-colors">Home</a>
+              <a href="/#about" className="hover:text-slate-900 transition-colors">About</a>
               <Link href="/projects">Projects</Link>
               <Link href="/lab">Lab</Link>
-              <Link href="/resume">Resume</Link>
-              <Link href="/contact">Contact</Link>
+              <a href="/#resume" className="hover:text-slate-900 transition-colors">Resume</a>
+              <a href="/#contact" className="hover:text-slate-900 transition-colors">Contact</a>
             </nav>
           </header>
 
