@@ -174,11 +174,6 @@ export default function LabPage() {
 
                 <div className="mb-4 flex items-center gap-2">
                   <StatusBadge status={selectedItem.status} />
-                  {selectedItem.timeframe && (
-                    <span className="text-[11px] text-slate-500">
-                      {selectedItem.timeframe}
-                    </span>
-                  )}
                 </div>
 
                 <Dialog.Description className="mb-4 text-sm text-slate-600">
