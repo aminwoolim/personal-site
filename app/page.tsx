@@ -48,7 +48,7 @@ export default function HomePage() {
     <div className="space-y-24">
       {/* ===== HERO SECTION ===== */}
       <section id="hero" className="min-h-[70vh] flex items-center">
-        <div className="grid w-full gap-10 md:grid-cols-[1fr_auto] md:items-center">
+        <div className="flex w-full gap-6 items-center">
           {/* LEFT: text */}
           <AnimatedItem index={0}>
             <div className="space-y-4">
@@ -65,8 +65,8 @@ export default function HomePage() {
 
           {/* RIGHT: full-body photo */}
           <AnimatedItem index={1}>
-            <div className="flex justify-center md:justify-start">
-              <div className="relative h-72 w-44 overflow-hidden rounded-2xl border bg-slate-100 shadow-sm md:h-96 md:w-56">
+            <div className="flex justify-center">
+              <div className="relative h-72 w-44 shrink-0 overflow-hidden rounded-2xl border bg-slate-100 shadow-sm">
                 <Image
                   src="/Alex_Lim_Headshot.jpg"
                   alt="Alex Lim"
@@ -230,7 +230,7 @@ export default function HomePage() {
           You can download my resume using the link below.
         </p>
         <motion.a
-          href="/AL_Resume(2025).pdf"
+          href="/AL_Resume(Dec).pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-block rounded border px-4 py-2 text-xs font-medium hover:bg-slate-50 transition-colors"
