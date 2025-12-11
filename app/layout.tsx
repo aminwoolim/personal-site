@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="min-h-screen bg-white text-slate-900">
-        <div className="mx-auto max-w-4xl px-4 py-8">
+        <div className="mx-auto max-w-4xl lg:max-w-6xl xl:max-w-7xl px-4 py-8">
           <header className="mb-10 flex items-center justify-between">
             
             <nav className="flex gap-6 text-xs text-slate-700">

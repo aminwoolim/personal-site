@@ -66,7 +66,7 @@ export default function HomePage() {
           {/* RIGHT: full-body photo */}
           <AnimatedItem index={1}>
             <div className="flex justify-center">
-              <div className="relative h-72 w-44 shrink-0 overflow-hidden rounded-2xl border bg-slate-100 shadow-sm">
+              <div className="relative h-96 w-60 shrink-0 overflow-hidden rounded-2xl border bg-slate-100 shadow-sm">
                 <Image
                   src="/Alex_Lim_Headshot.jpg"
                   alt="Alex Lim"
