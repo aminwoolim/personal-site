@@ -48,14 +48,14 @@ export default function HomePage() {
     <div className="space-y-24">
       {/* ===== HERO SECTION ===== */}
       <section id="hero" className="min-h-[70vh] flex items-center">
-        <div className="flex w-full gap-6 items-center">
+        <div className="flex w-full gap-6 items-center justify-between">
           {/* LEFT: text */}
           <AnimatedItem index={0}>
             <div className="space-y-4">
               <h1 className="text-3xl font-semibold tracking-tight md:text-4xl">
                 Welcome!
               </h1>
-              <p className="max-w-md text-sm text-slate-600">
+              <p className="max-w-xl text-sm text-slate-600">
                 My name is Alex, and I build applied machine learning features and the backend systems
                 that support them. Have a look at my work and feel free to reach
                 out.
@@ -66,7 +66,7 @@ export default function HomePage() {
           {/* RIGHT: full-body photo */}
           <AnimatedItem index={1}>
             <div className="flex justify-center">
-              <div className="relative h-96 w-60 shrink-0 overflow-hidden rounded-2xl border bg-slate-100 shadow-sm">
+              <div className="relative h-[28rem] w-72 shrink-0 overflow-hidden rounded-2xl border bg-slate-100 shadow-sm">
                 <Image
                   src="/Alex_Lim_Headshot.jpg"
                   alt="Alex Lim"
