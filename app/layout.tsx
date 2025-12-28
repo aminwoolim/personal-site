@@ -20,7 +20,7 @@ export default function RootLayout({
         <div className="mx-auto max-w-4xl lg:max-w-6xl xl:max-w-7xl 2xl:max-w-[1600px] px-4 2xl:px-12 py-8">
           <header className="mb-10 flex items-center justify-center">
             
-            <nav className="flex gap-6 text-xs text-slate-700">
+            <nav className="flex gap-6 text-xs text-slate-700 bg-slate-100 px-6 py-3 rounded-full">
               <a href="/#hero" className="hover:text-slate-900 transition-colors">Home</a>
               <a href="/#about" className="hover:text-slate-900 transition-colors">About</a>
               <Link href="/projects">Projects</Link>

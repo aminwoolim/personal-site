@@ -15,6 +15,15 @@ type Project = {
 
 
 const projects: Project[] = [
+  {
+    slug: "fitness-analyzer",
+    title: "Fitness Dashboard",
+    period: "2025",
+    tags: ["Python", "Pandas", "Azure"],
+    summary:
+      "Built a pipeline and dashboard that processes my workout journal entries and uses training patterns to analyze and predict calisthenics skill progression.",
+    githubUrl: "https://github.com/aminwoolim/azure-fitness-analytics-platform"
+  },
   {slug: "aws-housing-mlops",
    title: "Housing Price Prediction Pipeline",
    period: "2025",

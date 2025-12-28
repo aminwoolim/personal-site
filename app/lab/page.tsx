@@ -16,18 +16,6 @@ type LabItem = {
 
 const labItems: LabItem[] = [
   {
-    title: "Fitness Analyzer",
-    status: "in-progress",
-    summary:
-      "Using Azure tools to ingest my workout journal entries and notes, parse them into structured data, and train a model that suggests new and optimal workouts.",
-    nextSteps: [
-      "Set up Azure Document Intelligence (Form Recognizer) pipeline to parse journal entries into a consistent schema.",
-      "Design a simple data model for workouts (exercise, sets, reps, load, RPE, notes).",
-      "Build a first-pass recommendation baseline (e.g., progression-based templates) before experimenting with ML.",
-      "Create a minimal dashboard to visualize trends in volume and performance.",
-    ],
-  },
-  {
     title: "Pure News Anchor",
     status: "planned",
     summary:
